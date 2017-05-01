@@ -73,19 +73,19 @@ class UserRegister extends Component {
       <form className="user-register text-center" onSubmit={this.handleFormSubmit}>
         
         <div className="form-group">
-          <input required type="text" name="username" onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-username" placeholder="Username"/>
+          <input required type="text" name="username" value={this.state.username} onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-username" placeholder="Username"/>
         </div>
         
         <div className="form-group">
-          <input required type="email" name="email" onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-email" placeholder="Email Address"/>
+          <input required type="email" name="email" value={this.state.email} onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-email" placeholder="Email Address"/>
         </div>
         
         <div className="form-group">
-          <input required type="password" name="password" onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-password" placeholder="Password"/>
+          <input required type="password" name="password" value={this.state.password} onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-password" placeholder="Password"/>
         </div>
         
         <div className="form-group">
-          <input required type="password" name="confirmPassword" onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-confirm-password" placeholder="Confirm Password"/>
+          <input required type="password" name="confirmPassword" value={this.state.confirmPassword} onChange={this.handleFormChange} maxLength="100" className="form-control" id="user-register-confirm-password" placeholder="Confirm Password"/>
         </div>
         
         <div className="text-success">
