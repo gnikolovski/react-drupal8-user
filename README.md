@@ -6,6 +6,7 @@ This set contains the following components:
 
 * UserRegister
 * UserLogin
+* UserProfile
 
 ## AUTHOR
 
