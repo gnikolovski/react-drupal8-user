@@ -1,16 +1,13 @@
-# React JS + Drupal 8 User components
+# React JS + Drupal 8/9 user components
 
-A set of reusable React JS components that interact with Drupal 8 User entity.
+A set of reusable React JS components that interact with Drupal 8/9 user entity.
 
 This set contains the following components:
 
-* UserRegister
-* UserLogin
-* UserProfile
+ * UserRegister
+ * UserLogin
+ * UserProfile
 
-## AUTHOR
+## Author Information
 
-Goran Nikolovski  
-Website: (http://www.gorannikolovski.com)  
-Drupal: (https://www.drupal.org/u/gnikolovski)  
-Email: nikolovski84@gmail.com  
+This project was created by [Goran Nikolovski](https://gorannikolovski.com/).
